@@ -3,6 +3,5 @@
     "version": "1.0.1",
     "description": "Pre-interview tasks for prospective PHP developers.",
     "private": true,
-    "devDependencies": {
-    }
+    "devDependencies": {}
 }

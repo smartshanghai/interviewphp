@@ -1,11 +1,8 @@
 {
     "name": "interviewphp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Pre-interview tasks for prospective PHP developers.",
     "private": true,
     "devDependencies": {
-        "grunt": "1.*",
-        "grunt-sass": "2.*",
-        "time-grunt": "*"
     }
 }

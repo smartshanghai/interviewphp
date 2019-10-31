@@ -4,16 +4,11 @@ Pre-interview tasks for prospective PHP developers.
 
 ## A: HTML and CSS
 
-### Preparation
-
-- Download NPM dependencies.
-- Make sure that you can run `Grunt`. It should already be configured to work as soon as you have installed the dependencies.
-- Compile `assignments/a/scss/main.scss` by running `Grunt`.
-
 ### Task
 
-Implement [assignments/a/profile.jpg](assignments/a/designs/profile.jpg) on the index.html page. 
-Make a responsive grid containing a couple of these profiles (max 3 per line) for different people (use random names, and any pictures). Buttons do not have to lead anywhere. Pay attention to positioning and coloring.
+Implement [assignments/a/profile.jpg](assignments/a/designs/profile.jpg). Make a responsive grid containing a couple of these profiles 
+(max 3 per line) for different people (use random names, and any pictures). Buttons do not have to lead anywhere. 
+Pay attention to positioning and coloring.
 
 ## B: PHP
 

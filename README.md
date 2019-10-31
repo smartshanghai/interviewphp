@@ -12,13 +12,8 @@ Pre-interview tasks for prospective PHP developers.
 
 ### Task
 
-In `assignments/a` there are two HTML files: index.html and contact.html. They are already set up to load `stylesheet.css` that you compiled in the previous step. Use symantic HTML and SCSS to build the designs below.
-
 Implement [assignments/a/profile.jpg](assignments/a/designs/profile.jpg) on the index.html page. 
-Make a responsive grid of 6 profiles (max 3 per line) for different people (use random names, and the profile pictures from the `designs` folder). Buttons do not have to lead anywhere. Pay special attention to positioning and coloring.
-
-Implement the design in [assignments/a/contact.jpg](assignments/a/designs/contact.jpg) as the contact.html page.
-You do not have to implement the Javascript for the map, nor the actual sharing functionality of the social media buttons. Just use any appropriately-sized image for the map.
+Make a responsive grid containing a couple of these profiles (max 3 per line) for different people (use random names, and any pictures). Buttons do not have to lead anywhere. Pay attention to positioning and coloring.
 
 ## B: PHP
 
@@ -26,13 +21,9 @@ You do not have to implement the Javascript for the map, nor the actual sharing 
 
 Explain in no more than one page (A4) how you would design the classes and database of a private messaging system on a website. Feel free to include model diagrams.
 
-### 2: Time Tracking
+### 2: HTTP Requesting Command-line Tool
 
-Write a class that can:
+Write a command-line PHP program that accepts one argument that should be a valid URL. The program should send a request to the given
+URL and parse the response and save some interesting information about the response as JSON in a text file.
 
-- Receive an array
-- Convert array to JSON
-- Output the JSON
-- Save it to a file
-- Read the JSON from the file
-- Output the JSON as a PHP array again
+Feel free to use any helpful libraries from Composer to achieve the goal.
